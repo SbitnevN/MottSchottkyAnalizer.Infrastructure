@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MottSchottkyAnalizer.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c503b60534704950225ef7d8046f37a568e605d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MottSchottkyAnalizer.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MottSchottkyAnalizer.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,4 +7,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ElinsDataParser\ElinsDataParser.csproj" />
+    <ProjectReference Include="..\MottSchottkyAnalizer.Core\MottSchottkyAnalizer.Core.csproj" />
+    <ProjectReference Include="..\MottSchottkyAnalizer.DI\MottSchottkyAnalizer.DI.csproj" />
+  </ItemGroup>
+
 </Project>
