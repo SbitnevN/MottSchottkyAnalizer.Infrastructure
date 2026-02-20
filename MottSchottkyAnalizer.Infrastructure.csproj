@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net10.0-windows</TargetFramework>
@@ -8,7 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ElinsDataParser\ElinsDataParser.csproj" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ElinsData\ElinsData.csproj" />
     <ProjectReference Include="..\MottSchottkyAnalizer.Core\MottSchottkyAnalizer.Core.csproj" />
     <ProjectReference Include="..\MottSchottkyAnalizer.DI\MottSchottkyAnalizer.DI.csproj" />
   </ItemGroup>
